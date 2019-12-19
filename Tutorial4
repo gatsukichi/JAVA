@@ -43,6 +43,13 @@ public class Main {
 		
 		double d = Math.pow(3.0, 20.0);
 		System.out.println("3의 20제곱은 " + (int)d  + "입니다.");
+		
+			int i = 20;
+		i += 1;
+		i = i+1;
+		i++;
+		System.out.println(100<i||i<200);
+		
 	}
 
 	static int max(int a, int b) {
